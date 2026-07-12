@@ -175,6 +175,3 @@ This project demonstrates practical implementation of:
 
 ---
 
-## License
-
-This project is intended for learning and demonstration purposes.
