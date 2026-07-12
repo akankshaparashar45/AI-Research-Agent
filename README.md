@@ -89,7 +89,7 @@ AI-Agent/
 Clone the repository
 
 ```bash
-git clone https://github.com/<username>/AI-Agent-with-CrewAI-and-LangChain.git
+git clone https://github.com/akankshaparashar45/AI-Research-Agent.git
 ```
 
 ---
