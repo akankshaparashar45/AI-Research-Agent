@@ -1,5 +1,3 @@
-# AI-Research-Agent
-Using CrewAI orchestration, LangChain, OpenAI LLMs, RAG, memory, and web search APIs
 # AI Agent with CrewAI and LangChain
 
 An intelligent AI Research Assistant built using **CrewAI**, **LangChain**, and **OpenAI LLMs**. The agent can understand user queries, decide when external information is required, search the web, utilize memory, and generate accurate, context-aware responses.
@@ -81,11 +79,7 @@ This project was developed to explore the architecture and implementation of mod
 AI-Agent/
 │
 ├── main.ipynb
-├── requirements.txt
 ├── README.md
-├── short-term-memory/
-├── entity-memory/
-└── images/
 ```
 
 ---
@@ -96,18 +90,6 @@ Clone the repository
 
 ```bash
 git clone https://github.com/<username>/AI-Agent-with-CrewAI-and-LangChain.git
-```
-
-Move into the project directory
-
-```bash
-cd AI-Agent-with-CrewAI-and-LangChain
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
 ```
 
 ---
