@@ -95,17 +95,6 @@ git clone https://github.com/akankshaparashar45/AI-Research-Agent.git
 
 ---
 
-## Environment Variables
-
-Create a `.env` file (or configure secrets in Google Colab) and add the following:
-
-```text
-OPENAI_API_KEY=your_api_key
-TAVILY_API_KEY=your_api_key
-```
-
----
-
 ## Example Query
 
 ```
@@ -126,9 +115,7 @@ The agent automatically:
  
 - Agent: Expert Research Analyst
 - Task: User Query: 'what is the temperature in kaiserslautern (Germany) today?'.
-
 - Task Description: Analyze this query carefully. Determine if current information from the web is needed. If the query contains words such as today, current, latest, recent, weather, news, temperature, forecast, price, stock, or live information, you MUST call search_tool before answering. Do not answer from your own knowledge before calling search_tool for such queries.
-
 When calling search_tool, pass ONLY a dictionary with exactly one key: 'query'.
 Correct example:
 {"query": "current temperature in Kaiserslautern Germany today"}
@@ -136,21 +123,8 @@ Do not pass an empty string.
 Do not pass a list.
 Do not pass search results.
 Do not pass URLs.
-
 After receiving the search_tool output, synthesize the gathered information with your internal knowledge to provide a clear, accurate, and comprehensive answer directly addressing the user's query.
-🤖 Agent: Expert Research Analyst
-    Status: In Progress
-
-
-search tool is called
-
-
-- Agent: Expert Research Analyst
-- Thought: Action: search_tool
-- Using tool: search_tool
-- Tool Input: 
-"{\"query\": \"current temperature in Kaiserslautern Germany today\"}"
-- Tool Output: 
+- Result: 
 Climograph, Kaiserslautern
 
 Throughout June, Kaiserslautern reaches its highest average temperature on 29.06, hitting 23.1°C | 73.6°F.
@@ -163,8 +137,6 @@ The coldest is 1-10, with lows down to 16.6°C | 61.9°F. [...] ##
 
 ## 
 
-
---- Crew Execution Complete ---
 
 ## Skills Demonstrated
 
