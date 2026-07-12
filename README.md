@@ -79,6 +79,7 @@ This project was developed to explore the architecture and implementation of mod
 AI-Agent/
 │
 ├── main.ipynb
+├── main.pdf
 ├── README.md
 ```
 
