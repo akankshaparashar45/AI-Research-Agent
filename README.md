@@ -121,7 +121,7 @@ The agent automatically:
 When calling search_tool, pass ONLY a dictionary with exactly one key: 'query'.
 
 Correct example:
-- {"query": "current temperature in Kaiserslautern Germany today"}
+**{"query": "current temperature in Kaiserslautern Germany today"}
 
 --{"query": "current temperature in Kaiserslautern Germany today"}
 --Do not pass an empty string.
