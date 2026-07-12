@@ -115,18 +115,15 @@ The agent automatically:
  
 - Agent: Expert Research Analyst
 - Task: User Query: 'what is the temperature in kaiserslautern (Germany) today?'.
-- Task Description: Analyze this query carefully. Determine if current information from the web is needed. If the query contains words such as today, current, latest, recent, weather, news, temperature, forecast, price, stock, or live information, you MUST call search_tool before answering. Do not answer from your own knowledge before calling search_tool for such queries.
-
-  
-When calling search_tool, pass ONLY a dictionary with exactly one key: 'query'.
-
-Correct example:
+- Task Description: Analyze this query carefully. Determine if current information from the web is needed. If the query contains words such as today, current, latest, recent, weather, news, temperature, forecast, price, stock, or live information, you MUST call search_tool before answering. Do not answer from your own knowledge before calling search_tool for such queries.When calling search_tool, pass ONLY a dictionary with exactly one key: 'query'.
+  Correct example:
   * {"query": "current temperature in Kaiserslautern Germany today"}
   * Do not pass an empty string.
   * Do not pass a list.
   * Do not pass search results.
   * Do not pass URLs.
 After receiving the search_tool output, synthesize the gathered information with your internal knowledge to provide a clear, accurate, and comprehensive answer directly addressing the user's query.
+
 - Result: 
 Throughout June, Kaiserslautern reaches its highest average temperature on 29.06, hitting 23.1°C | 73.6°F.
 The coldest day is 01.06, with a minimum of 11°C | 51.9°F.
