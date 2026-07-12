@@ -121,13 +121,11 @@ The agent automatically:
 When calling search_tool, pass ONLY a dictionary with exactly one key: 'query'.
 
 Correct example:
-**{"query": "current temperature in Kaiserslautern Germany today"}
-
---{"query": "current temperature in Kaiserslautern Germany today"}
---Do not pass an empty string.
---Do not pass a list.
---Do not pass search results.
---Do not pass URLs.
+  * {"query": "current temperature in Kaiserslautern Germany today"}
+  * Do not pass an empty string.
+  * Do not pass a list.
+  * Do not pass search results.
+  * Do not pass URLs.
 After receiving the search_tool output, synthesize the gathered information with your internal knowledge to provide a clear, accurate, and comprehensive answer directly addressing the user's query.
 - Result: 
 Throughout June, Kaiserslautern reaches its highest average temperature on 29.06, hitting 23.1°C | 73.6°F.
